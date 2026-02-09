@@ -77,6 +77,79 @@
               "CVE-2025-69226",
               "CVE-2021-21330"
             ]
+          },
+          {
+            "library_name": "glib-2.77.0",
+            "vulnerabilities": [
+              "CVE-2024-52533"
+            ]
+          },
+          {
+            "library_name": "libcurl-7.86.0",
+            "vulnerabilities": [
+              "CVE-2023-38545",
+              "CVE-2023-23914",
+              "CVE-2023-27534",
+              "CVE-2023-27533",
+              "CVE-2024-2398",
+              "CVE-2025-0725",
+              "CVE-2023-38039",
+              "CVE-2023-28319",
+              "CVE-2022-43551",
+              "CVE-2024-9681",
+              "CVE-2024-8096",
+              "CVE-2024-7264",
+              "CVE-2023-46218",
+              "CVE-2023-23916",
+              "CVE-2023-23915",
+              "CVE-2023-28321",
+              "CVE-2023-28320",
+              "CVE-2023-27536",
+              "CVE-2023-27535",
+              "CVE-2022-43552",
+              "CVE-2023-27538",
+              "CVE-2023-46219",
+              "CVE-2024-11053",
+              "CVE-2023-38546",
+              "CVE-2023-28322",
+              "CVE-2024-2004",
+              "CVE-2025-0167"
+            ]
+          },
+          {
+            "library_name": "openssl-3.2.0.tar.gz",
+            "vulnerabilities": [
+              "CVE-2024-5535",
+              "CVE-2023-6129",
+              "CVE-2024-4603",
+              "CVE-2024-9143",
+              "CVE-2004-0230"
+            ]
+          },
+          {
+            "library_name": "fmt-10.2.1.zip",
+            "vulnerabilities": [
+              "CVE-2020-25694",
+              "CVE-2018-1000052"
+            ]
+          },
+          {
+            "library_name": "harfbuzz-5.3.0",
+            "vulnerabilities": [
+              "CVE-2023-25193"
+            ]
+          },
+          {
+            "library_name": "freetype-2.13.0",
+            "vulnerabilities": [
+              "CVE-2018-1000052"
+            ]
+          },
+          {
+            "library_name": "libjpeg-turbo-2.1.4.tar.gz",
+            "vulnerabilities": [
+              "CVE-2023-2804"
+            ]
           }
         ]
       },
@@ -180,14 +253,31 @@
               "CVE-2020-11022",
               "CVE-2019-11358"
             ]
+          },
+          {
+            "library_name": "protobuf-3.21.4.tar.gz",
+            "vulnerabilities": [
+              "CVE-2024-2410",
+              "CVE-2025-4565",
+              "CVE-2024-7254",
+              "CVE-2022-3510",
+              "CVE-2022-3509",
+              "CVE-2022-1941"
+            ]
+          },
+          {
+            "library_name": "spdlog-1.12.0.tar.gz",
+            "vulnerabilities": [
+              "CVE-2018-1000052"
+            ]
           }
         ]
       },
       "_comment_expected_unreachable_libraries": "Expected UNREACHABLE libraries - npm and JavaScript packages with unreachable vulnerabilities",
-      "expected_total_reachable_count": { "gte": 25 },
-      "_comment_expected_total_reachable_count": "Minimum number of reachable CVEs expected - 25 reachable vulnerabilities (20 previous + 5 aiohttp)",
-      "expected_total_unreachable_count": { "gte": 17 },
-      "_comment_expected_total_unreachable_count": "Expected number of unreachable CVEs - 17 unreachable vulnerabilities (12 previous + 3 jquery + 2 urllib3)"
+      "expected_total_reachable_count": { "gte": 63 },
+      "_comment_expected_total_reachable_count": "Minimum number of reachable CVEs expected - 63 reachable vulnerabilities (25 previous + 38 new Conan packages)",
+      "expected_total_unreachable_count": { "gte": 24 },
+      "_comment_expected_total_unreachable_count": "Expected number of unreachable CVEs - 24 unreachable vulnerabilities (17 previous + 7 new Conan packages)"
     }
   }
 }
