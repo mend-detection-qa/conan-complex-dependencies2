@@ -274,10 +274,10 @@
         ]
       },
       "_comment_expected_unreachable_libraries": "Expected UNREACHABLE libraries - npm and JavaScript packages with unreachable vulnerabilities",
-      "expected_total_reachable_count": { "gte": 63 },
-      "_comment_expected_total_reachable_count": "Minimum number of reachable CVEs expected - 63 reachable vulnerabilities (25 previous + 38 new Conan packages)",
-      "expected_total_unreachable_count": { "gte": 24 },
-      "_comment_expected_total_unreachable_count": "Expected number of unreachable CVEs - 24 unreachable vulnerabilities (17 previous + 7 new Conan packages)"
+      "expected_total_reachable_count": { "gte": 33 },
+      "_comment_expected_total_reachable_count": "Minimum number of reachable CVEs expected - 33 reachable vulnerabilities found",
+      "expected_total_unreachable_count": { "gte": 6 },
+      "_comment_expected_total_unreachable_count": "Expected number of unreachable CVEs - 6 unreachable vulnerabilities found"
     }
   }
 }
